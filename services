@@ -1,0 +1,6 @@
+services:
+    app.twig_runtime:
+        class: AppBundle\Twig\AppGetSizeImage
+        public: true
+        tags:
+            - { name: twig.runtime }
