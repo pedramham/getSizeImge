@@ -1,0 +1,2 @@
+{{ absolute_url(asset('uploads/articles/' ~  Article.largPic))|height()}}
+{{ absolute_url(asset('uploads/articles/' ~  Article.largPic))|width()}}
